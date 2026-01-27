@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal - Shape-o-Mania</title>
+    <title>Privacy Policy - Shape-o-Mania</title>
     <style>
         * {
             margin: 0;
@@ -29,41 +29,34 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.1);
         }
         
-        .tabs {
+        .navigation {
             display: flex;
-            gap: 10px;
+            gap: 20px;
             margin-bottom: 40px;
+            padding-bottom: 20px;
             border-bottom: 2px solid #e8e8e8;
         }
         
-        .tab {
-            padding: 15px 30px;
-            background: transparent;
-            border: none;
-            border-bottom: 3px solid transparent;
-            cursor: pointer;
-            font-size: 1em;
-            font-weight: 600;
+        .nav-link {
+            padding: 12px 24px;
+            background: #f8f9fa;
             color: #666;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
             transition: all 0.3s;
-            font-family: inherit;
+            border: 2px solid transparent;
         }
         
-        .tab:hover {
+        .nav-link:hover {
+            background: #e9ecef;
             color: #3498db;
         }
         
-        .tab.active {
-            color: #3498db;
-            border-bottom-color: #3498db;
-        }
-        
-        .tab-content {
-            display: none;
-        }
-        
-        .tab-content.active {
-            display: block;
+        .nav-link.active {
+            background: #3498db;
+            color: white;
+            border-color: #3498db;
         }
         
         h1 {
@@ -161,30 +154,14 @@
                 border-radius: 8px;
             }
             
-            .tabs {
+            .navigation {
                 flex-direction: column;
-                gap: 0;
-                margin-bottom: 30px;
-                border-bottom: none;
+                gap: 10px;
             }
             
-            .tab {
-                padding: 14px 18px;
-                text-align: left;
-                border-bottom: 1px solid #e8e8e8;
-                border-left: 3px solid transparent;
-                font-size: 0.95em;
-                -webkit-tap-highlight-color: rgba(52, 152, 219, 0.2);
-            }
-            
-            .tab:last-child {
-                border-bottom: none;
-            }
-            
-            .tab.active {
-                border-left-color: #3498db;
-                border-bottom-color: #e8e8e8;
-                background-color: #f8f9fa;
+            .nav-link {
+                text-align: center;
+                padding: 14px;
             }
             
             h1 {
@@ -266,8 +243,8 @@
                 font-size: 1em;
             }
             
-            .tab {
-                padding: 12px 15px;
+            .nav-link {
+                padding: 12px;
                 font-size: 0.9em;
             }
             
@@ -283,16 +260,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="tabs">
-            <button class="tab active" onclick="showTab('privacy')">Privacy Policy</button>
-            <button class="tab" onclick="showTab('terms')">Terms of Use</button>
+        <div class="navigation">
+            <a href="index.html" class="nav-link active">Privacy Policy</a>
+            <a href="terms.html" class="nav-link">Terms of Use</a>
         </div>
         
-        <div id="privacy-content" class="tab-content active">
-            <h1>Privacy Policy</h1>
-            <p class="subtitle">Privacy Policy for Shape-o-Mania</p>
-            
-            <div id="policy-content">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Privacy Policy for Shape-o-Mania</p>
+        
+        <div id="policy-content">
             <h2>1. Introduction</h2>
             <p>This Privacy Policy describes how Vickand Games - Viktoriia Plashevska ("we," "us," or "our") collects, uses, and discloses information when you use the Shape-o-Mania mobile application (the "App" or "Game").</p>
             <p>This Privacy Policy applies solely to the Shape-o-Mania application and does not apply to any other games or applications available on Google Play Store, Apple App Store, or other platforms.</p>
@@ -511,167 +487,6 @@
                 <p><strong>Last Updated:</strong> January 25, 2026</p>
             </div>
         </div>
-        
-        <div id="terms-content" class="tab-content">
-            <h1>Terms of Use</h1>
-            <p class="subtitle">Terms of Use for Shape-o-Mania</p>
-            
-            <div id="terms-text">
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 20px; color: #2c3e50;">Please read these terms of use carefully before playing the game.</p>
-                
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 20px; color: #2c3e50;">These terms and conditions (the "Terms") are a legal contract between "you" and Vickand Games - Viktoriia Plashevska ("Vickand Games," "we," "our," "us").</p>
-                
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 30px; color: #2c3e50;">The Terms explain how you are permitted to use the Shape-o-Mania mobile application (the "App" or "Game") as well as all associated services, materials, content, and software that Vickand Games provides to you (collectively, the "Service").</p>
-                
-                <p>By playing the Game, by accessing, downloading, or using the App or the Service in any way; by accessing the Service through third-party platforms, including the Apple App Store or Google Play Store; by clicking on the "I ACCEPT" button, or by completing the registration process, <strong>YOU REPRESENT THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS AND CONSENT TO THE COLLECTION, USE, AND STORAGE OF YOUR INFORMATION AS OUTLINED IN THE VICKAND GAMES PRIVACY POLICY</strong> (all of the above, collectively "Your Acceptance").</p>
-                
-                <p style="text-transform: uppercase; font-weight: 600; margin: 25px 0; color: #e74c3c;"><strong>IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS, OR IF AT ANY TIME, THE TERMS ARE NO LONGER ACCEPTABLE TO YOU, PLEASE CEASE USE OF THE SERVICE IMMEDIATELY.</strong></p>
-                
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 30px; color: #2c3e50;">These Terms require binding arbitration on an individual basis to resolve disputes. If you are a resident of the United States of America, these Terms include a class action waiver and a waiver of jury trials. If you are a resident of the European Union, United Kingdom, or Canada, please note that under certain circumstances you may be able to bring a dispute before the appropriate authorities or courts in the country or province in which you reside.</p>
-                
-                <h2>1. General Use and Changes</h2>
-                <p>The Service is licensed, not sold, to you. Vickand Games reserves the right to refuse any user access to the Service without notice for any reason, including, but not limited to, any violation of the Terms. You agree that Vickand Games may suspend or discontinue the Service (or any feature thereof) or change the content of the Service at any time, for any reason, with or without notice, and without liability.</p>
-                
-                <p><strong>AGE REQUIREMENTS:</strong> <span style="text-transform: uppercase;">IF YOU ARE NOT AT LEAST 13 YEARS OF AGE, YOU MAY NOT SUBMIT ANY INFORMATION TO VICKAND GAMES OR THE SERVICE.</span> If you are eighteen (18) years of age or older, you represent that you have read, understood, and agree to be bound by the Terms. If you are a parent or legal guardian of a minor using the Service, you hereby agree that you have reviewed and agreed to these Terms, to bind the minor to these Terms, and to fully indemnify and hold harmless Vickand Games if the minor breaches any of these Terms. If you are a minor, you understand that you need your legal guardian's permission to use the Service.</p>
-                
-                <p>Vickand Games can change, update, or add or remove provisions of these Terms at any time by posting the updated Terms on the Service and by notifying you either through a banner in the App or, depending on your account status, via email at Vickand Games's sole discretion. These Terms will come into effect within five (5) days of posting. By using the Service after Vickand Games has updated the Terms, you are agreeing to all the updated Terms; if you do not agree with any of the updated Terms, you must stop using the Service. Also, please know that these Terms may be superseded by expressly designated legal notices or terms located on particular features of the Service. These expressly designated legal notices or terms are incorporated into these Terms and supersede the provision(s) of these Terms that are designated as being superseded.</p>
-                
-                <p>You understand and agree that the Service (and the App) is evolving. As such, Vickand Games may require that you download and install updates to the Service at any time, without notice or liability to you. You also understand and agree that any such changes or updates to the App might change the system specifications necessary to use the App, and in such a case, you, and not Vickand Games, are responsible for purchasing any necessary additional software and/or hardware in order to access and use the App. You acknowledge that when an upgrade is available, previous versions of the App may cease to be available or may no longer be supported by Vickand Games.</p>
-                
-                <h2>2. Privacy</h2>
-                <p>Any information provided by you and used by our Service is subject to our Privacy Policy, available through the Privacy Policy tab on this page. If you access our Service through third-party platforms (such as the Apple App Store or Google Play Store), any information provided by you and used by our Service is also subject to, where applicable, the privacy regulations set forth by those third-party platforms.</p>
-                
-                <h2>3. Use of the Service</h2>
-                <p><strong>(a) All Players:</strong> You will be able to view and use certain features of the Service that are available without registration.</p>
-                <p><strong>(b) Account Registration:</strong> In order to access certain features of the Service, you may be required to have an account on the Apple App Store or Google Play Store.</p>
-                
-                <h2>4. Payment of Fees</h2>
-                <p>You agree to pay all fees and applicable taxes incurred by you or anyone using an account registered to you. Vickand Games may revise the pricing for the goods and services offered through the Service at any time. Vickand Games may also provide links to other websites or third-party services, some of which may charge separate fees, which are not included in any fees that you may pay to Vickand Games. Any separate charges or obligations that you incur in your dealings with third parties are your responsibility.</p>
-                
-                <p><strong>Fees are non-refundable.</strong> All in-app purchases, including but not limited to ad removal and voluntary donations, are final and cannot be refunded once processed, except where required by applicable law.</p>
-                
-                <h2>5. Term and Termination</h2>
-                <p><strong>(a) Term:</strong> The Terms commence on the date when you accept them (as described in the preamble above) and remain in full force and effect while you use the Service, unless terminated earlier in accordance with the Terms.</p>
-                
-                <p><strong>(b) Termination:</strong> If you want to terminate the Service, you may do so by (a) notifying Vickand Games at any time; and/or (b) uninstalling the App from your device. We reserve the right to terminate or suspend your account or access to any or all of the Game at any time and for any reason. It is within our sole discretion and determination to terminate your account for what we deem to be a violation or breach of these Terms. In the event that we terminate or suspend your account, you will have no further access to your account or anything associated with it. As stated above, you will not be entitled to a refund of any virtual currency or virtual goods acquired or developed during your use of the Game or the Service.</p>
-                
-                <p><strong>(c) Effect of Termination:</strong> Termination of any feature of the Service includes removal of access to such feature. Termination of the Service includes deletion of your password and all related information, files, and content associated with or inside your account (or any part thereof), including your content. Vickand Games will not have any liability whatsoever to you for any suspension or termination, including for deletion of your content. All provisions of the Terms which by their nature should survive shall survive termination of the Service, including without limitation, ownership provisions, warranty disclaimers, and limitation of liability.</p>
-                
-                <h2>6. Disputes Between Users</h2>
-                <p>You are solely responsible for your interactions with other users of the Service. Vickand Games may at any time intervene in disputes between you and other users but is under no obligation to do so. Vickand Games will not be liable for anything resulting from these disputes, including, but not limited to, claims and damages of any kind.</p>
-                
-                <p>If you have a dispute with one or more users, <strong>YOU RELEASE VICKAND GAMES</strong> (and our officers, directors, agents, subsidiaries, joint ventures, and employees) <strong>FROM CLAIMS, DEMANDS, AND DAMAGES</strong> (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes. If you are a California resident, you waive California Civil Code §1542, which says: "A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM OR HER MUST HAVE MATERIALLY AFFECTED HIS SETTLEMENT WITH THE DEBTOR."</p>
-                
-                <h2>7. Disclaimer of Warranties</h2>
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 15px; color: #2c3e50;">THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, AND WE DO NOT REPRESENT, WARRANT, OR GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, VIRUS-FREE, OR THAT DEFECTS WILL BE CORRECTED.</p>
-                
-                <p>You agree that your access and use of the Service shall be at your sole risk. <span style="text-transform: uppercase; font-weight: 600;">TO THE FULLEST EXTENT PERMITTED BY LAW, VICKAND GAMES, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICE AND YOUR USE THEREOF, INCLUDING IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, AUTHORITY, COMPLETENESS, USEFULNESS, AND TIMELINESS.</span></p>
-                
-                <p>Vickand Games makes no warranties or representations about the accuracy or completeness of the content of the Service or the content of any sites linked to the Service and, to the fullest extent permitted by applicable law, assumes no liability or responsibility for any:</p>
-                <ul>
-                    <li>Errors, mistakes, or inaccuracies of content;</li>
-                    <li>Personal injury or property damage, of any nature whatsoever, resulting from your access to and use of the Service or Game;</li>
-                    <li>Any unauthorized access to or use of our secure servers and/or any and all personal information and/or financial information stored therein;</li>
-                    <li>Any interruption or cessation of transmission to or from the Service;</li>
-                    <li>Any bugs, viruses, trojan horses, or the like which may be transmitted to or through the Service by any third party;</li>
-                    <li>Any errors or omissions in any content or for any loss or damage of any kind incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available via the Service.</li>
-                </ul>
-                
-                <h2>8. Limitation of Liability</h2>
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 15px; color: #2c3e50;">VICKAND GAMES'S AGGREGATE CUMULATIVE LIABILITY TO YOU ARISING FROM OR RELATING TO THESE TERMS AND THE SERVICE, FOR ANY CAUSE WHATSOEVER, REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE TOTAL AMOUNT YOU HAVE PAID VICKAND GAMES IN THE TWELVE (12) MONTHS PRECEDING THE DATE OF THE CLAIM GIVING RISE TO THE LIABILITY.</p>
-                
-                <p style="text-transform: uppercase; font-weight: 600; margin-bottom: 15px; color: #2c3e50;">UNDER NO CIRCUMSTANCES WILL VICKAND GAMES BE LIABLE TO YOU OR ANY THIRD PERSON FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING ANY LOST PROFITS OR LOST DATA ARISING FROM YOUR USE OF THE SERVICE OR OTHER MATERIALS ON, ACCESSED THROUGH, OR DOWNLOADED FROM OUR SERVICE, WHETHER BASED ON WARRANTY, CONTRACT, TORT, ANY OTHER LEGAL THEORY, OR WHETHER OR NOT VICKAND GAMES HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES.</p>
-                
-                <p>The foregoing limitation of liability shall apply to the fullest extent permitted by law in the applicable jurisdiction. You specifically acknowledge that Vickand Games shall not be liable for user submissions or the defamatory, offensive, or illegal conduct of any third party and that the risk of harm or damage from the foregoing rests entirely with you.</p>
-                
-                <p style="text-transform: uppercase; font-weight: 600; margin-top: 20px; color: #2c3e50;">THE ABOVE DISCLAIMERS AND LIMITATIONS ON LIABILITY DO NOT AFFECT YOUR RIGHTS AS A CONSUMER OR PURPORT TO LIMIT LIABILITY THAT CANNOT BE EXCLUDED UNDER THE LAW IN YOUR USUAL PLACE OF RESIDENCE.</p>
-                
-                <h2>9. Intellectual Property Ownership and License</h2>
-                <p>You acknowledge that all intellectual property rights in our Service and its underlying technology, and all information and content available on or through the Service (excluding user content but including the characters, graphics, storylines, sounds, virtual currency, and virtual goods in the Game) are owned by us and/or our suppliers.</p>
-                
-                <p>The Service is protected by copyright laws throughout the world. Subject to your compliance with these Terms and any other relevant Vickand Games policies, Vickand Games grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license (subject to the limitations set forth herein) to download, install, access, view, and/or use the Service (including a copy of the App on a single mobile device that you own or control) solely for your personal, non-commercial entertainment purposes. No other use of the Service is authorized. In consideration of this authorization, you agree that any copy of the features of the Service or its components that you make shall retain all copyright and other proprietary notices in the same form and manner as on the original.</p>
-                
-                <p>You may not otherwise use, download, upload, print, display, perform, reproduce, publish, license, post, transmit, modify, create derivative works of, reverse engineer, disassemble, decompile, adapt, distribute, transfer, or exploit the Service or its features or components in whole or in part without our prior written authorization. Furthermore, with respect to any app accessed through or downloaded from the Apple App Store (an "App Store Sourced Application"), you will only use the App Store Sourced Application (i) on an Apple-branded product that runs iOS (Apple's proprietary operating system), and (ii) as permitted by the "Usage Rules" set forth in the Apple App Store Terms of Service. You may not sell, copy, exchange, transfer, assign, or otherwise distribute anything you copy or buy from the App unless you are expressly permitted by Vickand Games. We and our suppliers reserve all rights not granted in these Terms. There are no implied licenses.</p>
-                
-                <p>All trademarks, logos, and service marks displayed on the Service ("Marks") are our property or the property of other third parties. You are not permitted to use these Marks without our prior written consent or the consent of such third parties which may own the Marks.</p>
-                
-                <h2>10. User Content</h2>
-                <p><strong>(a) User Content:</strong> You agree that you are willingly publishing content on the Service using technology and tools provided by Vickand Games. Any data, text, information, files, graphics, photographs, and their selection and arrangement (hereinafter "User Content") uploaded, posted to, emailed, transmitted, or otherwise made available ("Make Available") through the Service are subject, whether in whole or in part, to unlimited commercial, non-commercial, and/or promotional use by Vickand Games. (When User Content is Made Available by you, it becomes "Your Content"). User Content is the sole responsibility of the person from whom the User Content originated. Thus, users are responsible, and Vickand Games is not responsible, for any User Content users Make Available. Vickand Games may or may not regulate User Content and does not guarantee the accuracy, quality, or integrity of any User Content Made Available via the Service. By using the Service, you acknowledge and accept that you may be exposed to material you find offensive or objectionable. You agree that Vickand Games will not under any circumstances be liable for any User Content, including, but not limited to, errors in any User Content, or any loss or damage incurred by use of the User Content. Vickand Games does not have the obligation to and will not monitor any User Content but has the right, in its discretion, to remove any User Content in case of a complaint.</p>
-                
-                <p><strong>(b) Public Discourse:</strong> The Service may include various forums, blogs, and chat features where you can post User Content, including, but not limited to, your observations and comments on designated topics. Vickand Games cannot guarantee that other users will not use the ideas and information that you share. Therefore, if you have an idea or information that you would like to keep confidential and/or do not want others to use, do not Make it Available on the Service. Vickand Games shall have no responsibility to evaluate, use, or compensate you for any ideas or information you may choose to submit. When you disclose information or rely on any information in forums, you do so at your own risk.</p>
-                
-                <p><strong>(c) License to User Content:</strong> You hereby grant to Vickand Games an irrevocable, perpetual, transferable, non-exclusive, royalty-free, worldwide license (including the right to sublicense and assign to third parties) and right to copy, reproduce, fix, adapt, modify, create derivative works from, manufacture, commercialize, publish, distribute, sell, license, sublicense, transfer, lease, transmit, publicly display, publicly perform, or provide access to electronically, broadcast, communicate to the public by telecommunication, display, perform, enter into computer memory, and use and practice, in any way, Your Content as well as all modified and derivative works of Your Content in connection with our provision of the Service, including marketing and promotions of the Service. Except as prohibited by law, you waive any rights of attribution and/or any moral rights you may have in Your Content, regardless of whether Your Content is altered or changed in any manner. <span style="text-transform: uppercase; font-weight: 600;">YOU WARRANT AND REPRESENT THAT YOU HAVE THE RIGHT TO UPLOAD ANY CONTENT THAT YOU MAKE AVAILABLE THROUGH THE SERVICE.</span></p>
-                
-                <p><strong>(d) Ownership of Your Content:</strong> Vickand Games does not claim any ownership rights in User Content, and nothing in these Terms is intended to restrict any rights that you may have to use and exploit Your Content. Vickand Games has no obligation to monitor or enforce your intellectual property rights in or to Your Content.</p>
-                
-                <p><strong>(e) Ownership of Other Content:</strong> Except with respect to Your Content, you agree that you have no right or title in or to any content that appears on or in the Service, including, but not limited to, the virtual goods or currency appearing or originating in the Game, whether earned in the Game or purchased from Vickand Games, or any other attributes associated with an account or stored on or in the Service.</p>
-                
-                <h2>11. Additional Terms Related to the Mobile Application</h2>
-                <p><strong>(a) App Stores:</strong> You acknowledge and agree that the availability of the App and the Service is dependent on the third party from whom you received the App license, e.g., the Apple App Store or Google Play ("App Store"). You acknowledge that the Terms are between you and Vickand Games and not with the App Store. Vickand Games, not the App Store, is solely responsible for the Service, including the App, the content thereof, maintenance, support services, and warranty therefor, and addressing any claims relating thereto (e.g., product liability, legal compliance, or intellectual property infringement). In order to use the App, you must have access to a wireless network, and you agree to pay all fees associated with such access. You also agree to pay all fees (if any) charged by the App Store in connection with the Service, including the App. You agree to comply with, and your license to use the App is conditioned upon your compliance with, all applicable third-party terms of agreement (e.g., the App Store's terms and policies) when using the Service, including the App. You acknowledge that the App Store (and its subsidiaries) are third-party beneficiaries of the Terms and will have the right to enforce them.</p>
-                
-                <p><strong>(b) Additional License Terms for Use of the Service in Conjunction with the Apple App Store:</strong> The following applies to any App Store Sourced Application accessed through or downloaded from the Apple App Store:</p>
-                <p>You acknowledge and agree that (i) the Terms are concluded between you and Vickand Games only, and not Apple, and (ii) Vickand Games, not Apple, is solely responsible for the App Store Sourced Application and content thereof. Your use of the App Store Sourced Application must comply with the App Store Terms of Service. You acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App Store Sourced Application. In the event of any failure of the App Store Sourced Application to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App Store Sourced Application to you, and to the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App Store Sourced Application. As between Vickand Games and Apple, any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty will be the sole responsibility of Vickand Games. You and Vickand Games acknowledge that, as between Vickand Games and Apple, Apple is not responsible for addressing any claims you have or any claims of any third party relating to the App Store Sourced Application or your possession and use of the App Store Sourced Application, including, but not limited to: (i) product liability claims; (ii) any claim that the App Store Sourced Application fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection or similar legislation. You and Vickand Games acknowledge that, in the event of any third-party claim that the App Store Sourced Application or your possession and use of that App Store Sourced Application infringes that third party's intellectual property rights, as between Vickand Games and Apple, Vickand Games, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of any such intellectual property infringement claim to the extent required by the Terms. You and Vickand Games acknowledge and agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of the Terms as related to your license of the App Store Sourced Application, and that, upon your acceptance of the terms and conditions of the Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce the Terms as related to your license of the App Store Sourced Application against you as a third-party beneficiary thereof. Without limiting any other terms of the Terms, you must comply with all applicable third-party terms of agreement when using the App Store Sourced Application.</p>
-                
-                <p><strong>(c) Additional License Terms for Use of the Service in Conjunction with Google Play Store:</strong> The following additional terms and conditions apply with respect to the App designed for use on an Android-powered mobile device (an "Android App"):</p>
-                <p>You acknowledge that these Terms are between you and Vickand Games only, and not with Google, Inc. ("Google"). Your use of Vickand Games's Android App must comply with Google's then-current Google Play Terms of Service. Google is only a provider of the Google Play Store where you obtained the Android App. Vickand Games, and not Google, is solely responsible for Vickand Games's Android App and the Services and content available thereon. Google has no obligation or liability to you with respect to Vickand Games's Android App or these Terms. You acknowledge and agree that Google is a third-party beneficiary to the Terms as they relate to Vickand Games's Android App.</p>
-                
-                <h2>12. Applicable Law and Dispute Resolution</h2>
-                <p>These Terms and any action related to these Terms will be governed by and interpreted under the laws of the Province of Manitoba, Canada, without regard to its conflict of law provisions. Notwithstanding the foregoing, if you are a resident of the European Union, United Kingdom, or another jurisdiction with mandatory consumer protection laws, please note that under certain circumstances you may be able to invoke the protection which is afforded to you by provisions of the law of the country you reside in that cannot be derogated from by agreement.</p>
-                
-                <p><strong>Arbitration Agreement:</strong> Any dispute, claim, or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation, or validity thereof, including the determination of the scope or applicability of this agreement to arbitrate, shall be determined by binding arbitration in Winnipeg, Manitoba, Canada, before a single arbitrator. The arbitration shall be administered by a recognized arbitration association in accordance with its applicable rules. Judgment on the award may be entered in any court having jurisdiction. This clause shall not preclude parties from seeking provisional remedies in aid of arbitration from a court of appropriate jurisdiction.</p>
-                
-                <p><strong>Class Action Waiver (U.S. Residents):</strong> <span style="text-transform: uppercase; font-weight: 600;">IF YOU ARE A RESIDENT OF THE UNITED STATES, YOU AGREE THAT ANY ARBITRATION SHALL BE LIMITED TO THE DISPUTE BETWEEN VICKAND GAMES AND YOU INDIVIDUALLY.</span> To the full extent permitted by law, (a) no arbitration shall be joined with any other; (b) there is no right or authority for any dispute to be arbitrated on a class-action basis or to utilize class action procedures; and (c) there is no right or authority for any dispute to be brought in a purported representative capacity on behalf of the general public or any other persons. You agree that you may bring claims against Vickand Games only in your individual capacity and not as a plaintiff or class member in any purported class or representative proceeding.</p>
-                
-                <p><strong>Exceptions:</strong> Notwithstanding the foregoing, if you are a resident of the European Union, United Kingdom, or Canada, please note that under certain circumstances you may be able to bring a dispute before the appropriate authorities or courts in the country or province in which you reside.</p>
-                
-                <h2>13. Consumer Complaints</h2>
-                <p><strong>California Residents:</strong> In accordance with California Civil Code §1789.3, you may report complaints to the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs by contacting them in writing at 400 R Street, Sacramento, CA 95814, or by telephone at (800) 952-5210.</p>
-                
-                <p><strong>European Union, United Kingdom, and Canadian Residents:</strong> If you are a resident of the European Union, United Kingdom, or Canada, you may report complaints to your local consumer protection authorities.</p>
-                
-                <h2>14. General</h2>
-                <p>These Terms together with our Privacy Policy constitute the entire agreement between you and Vickand Games regarding your use of our Service (including the App, Game, and all related content), and supersede and replace any prior written or oral agreements regarding the foregoing. Our failure to exercise or enforce any right or provision in these Terms shall not operate as a waiver of such right or provision. If any provision of the Terms is found to be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from the Terms and shall not affect the validity and enforceability of any remaining provisions. Neither the rights nor obligations arising under these Terms are assignable by you, and any such attempted assignment or transfer shall be void and without effect. We may assign these Terms without restriction. You may not use, export, import, or transfer the Service except as authorized by the laws of the United States of America, Canada, the laws of the jurisdiction in which you obtained the Service, and any other applicable laws. You also will not use the Service for any purpose prohibited by applicable law, including the development, design, manufacture, or production of missiles, nuclear, chemical, or biological weapons. You acknowledge and agree that products, services, or technology provided by Vickand Games are subject to the export control laws and regulations of the United States of America and Canada. You shall comply with these laws and regulations and shall not, without prior government authorization, export, re-export, or transfer the Vickand Games products, services, or technology, either directly or indirectly, to any country in violation of such laws and regulations.</p>
-                
-                <h2>15. Contact Information</h2>
-                <p>If you have any questions about these Terms, please contact us:</p>
-                <div class="contact-info">
-                    <p><strong>Email:</strong> <a href="mailto:shapeinc25@gmail.com">shapeinc25@gmail.com</a></p>
-                    <p><strong>Address:</strong> Vickand Games - Viktoriia Plashevska</p>
-                    <p>173 Victor Lewis Dr.</p>
-                    <p>Winnipeg, MB, Canada, R3P 1Z9</p>
-                </div>
-                <p>We will make every effort to resolve your concerns.</p>
-                
-                <div class="effective-date">
-                    <p><strong>Effective Date:</strong> January 25, 2026</p>
-                    <p><strong>Last Updated:</strong> January 25, 2026</p>
-                    <p style="margin-top: 15px; font-size: 0.85em;">© Vickand Games - Viktoriia Plashevska, 2026. All rights reserved.</p>
-                </div>
-            </div>
-            
-        </div>
     </div>
-    
-    <script>
-        function showTab(tabName) {
-            // Hide all tab contents
-            const contents = document.querySelectorAll('.tab-content');
-            contents.forEach(content => {
-                content.classList.remove('active');
-            });
-            
-            // Remove active class from all tabs
-            const tabs = document.querySelectorAll('.tab');
-            tabs.forEach(tab => {
-                tab.classList.remove('active');
-            });
-            
-            // Show selected tab content
-            document.getElementById(tabName + '-content').classList.add('active');
-            
-            // Add active class to clicked tab
-            event.target.classList.add('active');
-        }
-    </script>
 </body>
 </html>
