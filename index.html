@@ -281,10 +281,15 @@
             <p>For users in the United States: We comply with the Children's Online Privacy Protection Act (COPPA). For more information about COPPA, please visit the Federal Trade Commission's website at <a href="https://www.ftc.gov/tips-advice/business-center/privacy-and-security/children%27s-privacy" target="_blank">https://www.ftc.gov/tips-advice/business-center/privacy-and-security/children%27s-privacy</a>.</p>
             
             <h2>3. Information We Collect</h2>
-            
-            <h3>3.1 Information You Provide</h3>
-            <p>The App does not require you to create an account or provide any personal information to play the Game. You can enjoy the full gameplay experience without entering any personal data.</p>
-            
+
+            <h3>3.1 Information You Choose to Provide</h3>
+            <p>The App can be played fully without creating an account or providing any personal information.</p>
+            <ul>
+                <li><strong>Optional Account Linking:</strong> You may choose to link your progress to a <strong>Google Play Games</strong> account (Android) or <strong>Sign in with Apple</strong> (iOS). We only receive a unique player identifier from that provider to keep your progress in sync across devices and reinstalls. For Sign in with Apple, we do not request or receive your name or email address.</li>
+                <li><strong>Player Tag:</strong> The App assigns you a nickname with a unique numeric suffix (e.g. "Player#1234"). This tag is shown to other players when you interact with them (friends, leaderboards, online 1v1 duels).</li>
+                <li><strong>Custom Avatar (Optional):</strong> If you choose to set a custom avatar, you may select a photo from your device's photo library. The image is cropped locally on your device and then uploaded to our cloud storage so it can be shown to other players you interact with (friends and opponents in online duels). We only access the single photo you actively select — the App does not browse or access the rest of your photo library.</li>
+            </ul>
+
             <h3>3.2 Information Collected Automatically</h3>
             <p>When you use the App, we automatically collect certain technical information through third-party services:</p>
             <ul>
@@ -293,10 +298,19 @@
                 <li><strong>In-App Purchase Information:</strong> Records of purchases made within the App (such as ad removal or donation transactions)</li>
                 <li><strong>Advertising Data:</strong> Information necessary to serve advertisements, including Advertising ID</li>
             </ul>
-            
-            <h3>3.3 Game Progress Data</h3>
-            <p>All game progress, settings, and preferences are stored locally on your device only. We do not store your game progress on our servers or in the cloud.</p>
-            
+
+            <h3>3.3 Game Progress &amp; Cloud Sync</h3>
+            <p>By default, your game progress, settings, and preferences are stored locally on your device only.</p>
+            <p>If you choose to link a Google Play Games or Apple ID account (see 3.1), your progress, statistics, and equipped items are also securely synced to our cloud storage so they can be restored on another device or after reinstalling the App.</p>
+
+            <h3>3.4 Online Multiplayer &amp; Social Features</h3>
+            <p>The App offers optional online features that involve interacting with other players:</p>
+            <ul>
+                <li><strong>Friends:</strong> You can add other players as friends using their Player Tag. Your friends list and your online/offline presence status are visible to your friends.</li>
+                <li><strong>Leaderboards:</strong> Your Player Tag and score are shown on public daily and global leaderboards, visible to other players ranked around you.</li>
+                <li><strong>Online 1v1 Duels:</strong> When you play an online match, you are connected directly to your opponent through a relay networking service. During the match, live gameplay data (such as your current score) is exchanged with your opponent in real time, and the final result is recorded to both players' statistics.</li>
+            </ul>
+
             <h2>4. How We Use Your Information</h2>
             <p>We use the collected information for the following purposes:</p>
             <ul>
@@ -304,27 +318,31 @@
                 <li><strong>Advertising:</strong> To display advertisements within the App</li>
                 <li><strong>In-App Purchases:</strong> To process and fulfill your purchases (ad removal, donations)</li>
                 <li><strong>App Improvement:</strong> To analyze app performance, identify technical issues, and develop new features</li>
+                <li><strong>Account Linking &amp; Cross-Device Sync:</strong> To restore your progress if you reinstall the App or switch devices, when you choose to link an account</li>
+                <li><strong>Social &amp; Multiplayer Features:</strong> To let you add friends, see their presence, compete on leaderboards, and play online duels with other players</li>
             </ul>
             
             <h2>5. Third-Party Services</h2>
             <p>We use the following third-party services that may collect information about you:</p>
-            
-            <h3>5.1 Google Analytics for Firebase</h3>
-            <p>We use Google Analytics for Firebase to collect usage statistics and analytics data.</p>
+
+            <h3>5.1 Unity Gaming Services</h3>
+            <p>The App uses several services from Unity Technologies to provide analytics, account linking, cloud sync, and online multiplayer features:</p>
             <ul>
-                <li><strong>Data Collected:</strong> Device information, app usage patterns, session data, crash reports</li>
-                <li><strong>Purpose:</strong> To understand user behavior and improve the App</li>
-                <li><strong>Data Retention:</strong> Analytics data is retained for 14 months, after which it is automatically deleted</li>
-                <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+                <li><strong>Unity Authentication:</strong> Manages your player identity, including linking a Google Play Games or Apple ID account (see Section 3.1)</li>
+                <li><strong>Unity Cloud Save:</strong> Stores your synced game progress and, if you set one, your custom avatar image, when you have linked an account</li>
+                <li><strong>Unity Friends:</strong> Stores your friends list, Player Tag, and online/offline presence status</li>
+                <li><strong>Unity Leaderboards:</strong> Stores and publicly displays your Player Tag, score, and rank</li>
+                <li><strong>Unity Multiplayer (Relay):</strong> Connects you to your opponent during online 1v1 duels and relays live match data between you</li>
+                <li><strong>Unity Analytics:</strong> Collects device information, app usage patterns, session data, and crash reports to help us understand user behavior and improve the App</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank">https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
             </ul>
-            
-            <h3>5.2 Google AdMob</h3>
-            <p>We use Google AdMob to display advertisements in the App.</p>
+
+            <h3>5.2 Unity LevelPlay (Ad Mediation)</h3>
+            <p>We use Unity LevelPlay to display advertisements in the App. LevelPlay may mediate ads from Unity Ads and other partner ad networks.</p>
             <ul>
                 <li><strong>Data Collected:</strong> Advertising ID (IDFA on iOS, Advertising ID on Android), device information, IP address, ad interaction data</li>
-                <li><strong>Purpose:</strong> To serve personalized advertisements based on your interests</li>
-                <li><strong>Ad Personalization:</strong> The App displays personalized ads using your Advertising ID to show relevant advertisements</li>
-                <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+                <li><strong>Purpose:</strong> To serve advertisements, including personalized ads based on your interests where permitted</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://unity.com/legal/privacy-policy" target="_blank">https://unity.com/legal/privacy-policy</a></li>
                 <li><strong>How to Opt-Out of Personalized Ads:</strong>
                     <ul>
                         <li><strong>Android:</strong> Go to Settings → Google → Ads → Opt out of Ads Personalization</li>
@@ -332,26 +350,41 @@
                     </ul>
                 </li>
             </ul>
-            
-            <h3>5.3 Google Play Store and Apple App Store</h3>
+
+            <h3>5.3 Google Play Games Services (Android)</h3>
+            <p>If you choose to link your Google Play Games account (see Section 3.1), Google processes your sign-in on our behalf.</p>
+            <ul>
+                <li><strong>Data Collected:</strong> Your Google Play Games player identifier</li>
+                <li><strong>Purpose:</strong> To let you sign in and sync your progress across devices</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            </ul>
+
+            <h3>5.4 Sign in with Apple (iOS)</h3>
+            <p>If you choose to link your Apple ID (see Section 3.1), Apple processes your sign-in on our behalf. We request only the anonymized identifier needed to recognize your account — not your name or email address.</p>
+            <ul>
+                <li><strong>Privacy Policy:</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a></li>
+            </ul>
+
+            <h3>5.5 Google Play Store and Apple App Store</h3>
             <p>This App is distributed through Google Play Store and Apple App Store, which have their own privacy policies governing app downloads, updates, and in-app purchases:</p>
             <ul>
                 <li><strong>Google Play Store Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
                 <li><strong>Apple App Store Privacy Policy:</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a></li>
             </ul>
-            
-            <h3>5.4 Ad Removal Feature</h3>
+
+            <h3>5.6 Ad Removal Feature</h3>
             <p>Users can choose to remove advertisements by making a one-time in-app purchase. Once purchased:</p>
             <ul>
                 <li>All third-party advertisements will be permanently disabled in the App</li>
-                <li>Google AdMob will no longer collect advertising-related data</li>
-                <li>Analytics data collection will continue for app improvement purposes</li>
+                <li>Unity LevelPlay will no longer collect advertising-related data</li>
+                <li>Analytics, account linking, and multiplayer data collection will continue as described above</li>
             </ul>
             
             <h2>6. Data Sharing and Disclosure</h2>
             
             <h3>6.1 Third-Party Service Providers</h3>
-            <p>We share your information only with the third-party service providers listed in Section 5 (Google Analytics, Google AdMob) to operate and improve the App. These providers have their own privacy policies and are required to protect your information.</p>
+            <p>We share your information only with the third-party service providers listed in Section 5 (Unity Gaming Services, Unity LevelPlay, and, if you choose to link an account, Google or Apple) to operate and improve the App. These providers have their own privacy policies and are required to protect your information.</p>
+            <p><strong>Visible to Other Players:</strong> Your Player Tag, leaderboard score/rank, friend presence status, and custom avatar (if set) are, by design, visible to other players you interact with — this is a social feature of the App, not a data breach or third-party sale.</p>
             
             <h3>6.2 Legal Requirements</h3>
             <p>We may disclose your information if required by law, court order, or governmental authority, or if we believe disclosure is necessary to:</p>
@@ -380,8 +413,9 @@
             <h2>8. Data Retention</h2>
             <ul>
                 <li><strong>Game Progress:</strong> Stored locally on your device until you uninstall the App or clear app data</li>
-                <li><strong>Analytics Data:</strong> Retained by Google Analytics for 14 months, then automatically deleted</li>
-                <li><strong>Advertising Data:</strong> Retained by Google AdMob according to their data retention policies (typically 26 months)</li>
+                <li><strong>Cloud-Synced Progress, Avatar, Friends &amp; Leaderboard Data:</strong> Retained in our cloud storage for as long as your linked account remains active, so it can be restored on other devices</li>
+                <li><strong>Analytics Data:</strong> Retained by Unity Analytics according to Unity's data retention policies</li>
+                <li><strong>Advertising Data:</strong> Retained by Unity LevelPlay and its mediated ad networks according to their respective data retention policies</li>
                 <li><strong>Purchase Records:</strong> Retained as long as necessary for tax and accounting purposes, typically 7 years</li>
             </ul>
             
@@ -398,7 +432,8 @@
             <p>You may request deletion of your personal data by contacting us at <a href="mailto:shapeinc25@gmail.com">shapeinc25@gmail.com</a>. Please note that:</p>
             <ul>
                 <li>Game progress stored locally on your device can be deleted by uninstalling the App</li>
-                <li>We will delete data we control, but cannot delete data held by third-party services (Google Analytics, AdMob) on their servers</li>
+                <li>Cloud-synced progress, avatar, friends, and leaderboard data tied to a linked account can be deleted on request</li>
+                <li>We will delete data we control, but cannot delete data held by third-party services (Unity Gaming Services, Unity LevelPlay, Google, Apple) on their own servers — you may need to contact them directly for that data</li>
             </ul>
             
             <h3>9.4 Right to Opt-Out of Personalized Advertising</h3>
@@ -484,7 +519,7 @@
             
             <div class="effective-date">
                 <p><strong>Effective Date:</strong> January 25, 2026</p>
-                <p><strong>Last Updated:</strong> January 25, 2026</p>
+                <p><strong>Last Updated:</strong> August 12, 2026</p>
             </div>
         </div>
     </div>
